@@ -1,6 +1,6 @@
 ---
-title: Hi
 publish: true
+title: Hi
 created: 2026-07-07T19:49:21.515+01:00
 modified: 2026-07-07T20:07:49.852+01:00
 ---
@@ -14,4 +14,4 @@ I update this whenever I feel like it, I mainly use it to help me see my progres
 Places to start (not completed yet...):
 
 - Coding Project Library
-- Projects that I have worked on
+- [[Projects that I am working on]]
