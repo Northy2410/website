@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Riley Northcote
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: rileynorthcote.com
   ignorePatterns:
     - private
     - templates
@@ -36,7 +36,7 @@ configuration:
         gray: "#646464"
         darkgray: "#d4d4d4"
         dark: "#ebebec"
-        secondary: "#7b97aa"
+        secondary: "#a855f7"
         tertiary: "#84a59d"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
@@ -195,11 +195,13 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
+    enabled: false
+  - source: github:quartz-community/spacer
     enabled: true
-    options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+    options: {}
+    layout:
+      position: afterBody
+      priority: 1
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
