@@ -1,9 +1,6 @@
 ---
 title: Hi
 publish: true
-aliases:
-  - /base/hi
-  - /base/
 created: 2026-07-07T19:49:21.515+01:00
 modified: 2026-07-07T20:07:49.852+01:00
 ---
